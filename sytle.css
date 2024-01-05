@@ -60,3 +60,64 @@ img{
     padding: 1rem;
     border-radius: 1rem;
 }
+@media all and (max-width: 600px) {
+    h1{
+    background-color: #081b31;
+    color: aliceblue;
+    height: 3rem;
+    width: 100%;
+    line-height: 3rem;
+}
+.choice{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+img{
+    height: 90px;
+    width: 90px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 3rem;
+
+}
+.choice :hover{
+    /* opacity: 0.5; */
+    cursor: pointer;
+    border: 10px solid #081b31;
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    gap: 3rem;
+}
+#user-score,
+#com-score{
+    font-size: 2rem;
+}
+.msg-container{
+    margin-top: 3rem;
+}
+#msg{
+    background-color: #081b31;
+    color: #fff;
+    font-size: 1rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+
+
+}
